@@ -1,0 +1,31 @@
+html {
+  background: #003314;
+}
+
+body {
+  padding: 1% 2% 4%;
+  background: white;
+  max-width: 30em;
+  margin: 10% auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  margin: 8px 0;
+  background-color: #FFB234;
+  cursor: pointer;
+}
