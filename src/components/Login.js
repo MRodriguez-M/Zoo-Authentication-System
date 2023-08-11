@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { CircularProgress } from "@mui/material";
 
 //Interface for user to input credentials and validate them with information in MongoDB
 const Login = ( { setUser } ) => {
@@ -55,9 +56,11 @@ const Login = ( { setUser } ) => {
             <label>Password:</label>
             <input type="password" placeholder="Enter password" 
             value={password} onChange={(e) => setPass(e.target.value)} />
-              
+            
             <button type="submit" id="login-button" onClick={handleOnSubmit}>Log In</button>
-            <button type="submit" id="loading-login-button" hidden>Logging In</button>
+            <button type="submit" id="loading-login-button" hidden>
+                <CircularProgress size="15px" color="inherit" /> Logging In
+            </button>
         </form>  
     </>
   );
