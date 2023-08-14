@@ -7,6 +7,7 @@ body {
   background: white;
   max-width: 30em;
   margin: 10% auto;
+  border-radius: 25px;
 }
 
 h1 {
@@ -28,6 +29,9 @@ button {
   margin: 8px 0;
   background-color: #FFB234;
   cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
 }
 
 .credentials-error-msg {
